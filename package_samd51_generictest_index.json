@@ -1,0 +1,58 @@
+{
+  "packages":
+  [
+    {
+      "name": "SAMD Boards",
+      "maintainer": "no one",
+      "websiteURL": "http://www.arduino.cc/en/Reference/HomePage",
+      "help":
+      {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms":
+      [
+        {
+          "name": "Generic SAMD51 1MB",
+          "architecture": "samd",
+          "version": "0.0.1",
+	  "category": "generic SAMD51",
+          "url": "https://github.com/slyalfa/arduino-board-index/boards/samd51_generic-0.0.1.tar.bz2",
+          "archiveFileName": "samd51_generic-0.0.1.tar.bz2",
+          "checksum": "SHA-256:d7038a9cb9d294d2e93fd2056f6e6a6b0c0f2b851641a10fa000127337815",
+          "size": "1137895",
+	  "boards": [
+		  {
+			  "name": "Generic SAMD51 1MB"
+		  }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+	    {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
