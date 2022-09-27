@@ -195,7 +195,7 @@
           "category": "generic SAMD51",
           "url": "https://github.com/slyalfa/arduino-board-index/boards/samd51_generic-0.0.1.tar.bz2",
           "archiveFileName": "samd51_generic-0.0.1.tar.bz2",
-          "checksum": "SHA-256:d7038a9cb9d294d2e93fd2056f6e6a6b0c0f2b851641a10fa000127337815",
+          "checksum": "SHA-256:d7038a9cb9d294d2e93fd2056f6e6a6b0c0f2b851641a10fa000127337815c48",
           "size": "1137895",
           "help": {
             "online": "https://github.com/slyalfa/arduino-board-index"
